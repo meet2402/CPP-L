@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int a,b;
+	clrscr();
+
+	printf("Enter a and b: ");
+	scanf("%d%d",&a,&b);
+
+	a = b;
+	b = a;
+
+	printf("Value of a: %d\nValue of b: %d",a,b);
+
+	getch();
+}
